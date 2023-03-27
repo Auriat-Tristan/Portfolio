@@ -233,3 +233,6 @@ document.getElementById("button-popup-solistos").addEventListener("click",functi
 document.getElementById("cross-solistos").addEventListener("click", function(){
   document.querySelector(".popup-solistos").style.display="none";
 })
+
+
+

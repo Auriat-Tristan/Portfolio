@@ -223,16 +223,5 @@ var diapo = 0;
 
 //********************************Fin Menu téléphone ************************************************ */
 
-document.getElementById("button-popup-solistos").addEventListener("click",function(){
-  document.querySelector(".popup-solistos").style.display="block";
-  document.querySelector(".popup-solistos").scrollIntoView({
-    behavior: 'smooth'
-  });
-})
-
-document.getElementById("cross-solistos").addEventListener("click", function(){
-  document.querySelector(".popup-solistos").style.display="none";
-})
-
 
 
